@@ -1,3 +1,31 @@
 .footer {
     margin-top: auto;
+    width: 100%;
+
+    .container {
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.social {
+    &__list {
+        list-style: none;
+    }
+
+    &__item {
+        display: inline;
+        margin: 0 0.5rem;
+        font-size: 1.4rem;
+    }
+
+    &__link {
+        color: inherit;
+        transition: all ease-in-out 250ms;
+
+        &:hover {
+            color: var(--clr-light-hov);
+        }
+    }
 }
