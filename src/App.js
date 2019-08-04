@@ -15,8 +15,8 @@ class App extends React.Component {
                 <div className='App'>
                     <Header />
                     <div className='container'>
-                        <Route exact path='/' component={Calculator} />
-                        <Route path='/about' component={About} />
+                        <Route path='/reactulator' component={Calculator} />
+                        <Route path='/reactulator/about' component={About} />
                     </div>
 
                     <Footer />
