@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+:root {
+    // Colors
+    --clr-dark: #171a27;
+    --clr-dark-2: #666;
+    --clr-light: #eee;
+    --clr-light-hov: #d6d6d6;
+    --clr-accent: #00acf6;
+    --clr-accent-hov: #009add;
+    --clr-danger: #ff8e30;
+
+    // Fonts
+    --ff: 'Roboto', sans-serif;
+    --fs: 2rem;
+
+    // Layout
+    --sp-1: 1em;
+}
+
+$breakpoints: (
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+);
